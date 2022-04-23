@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Nunito+Sans&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet/style.css"/>
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="header">
+        <i class="ph-lock-fill"></i>
+        <h1>Generate your password</h1> 
+      </div>
+      <p class="sub-header">generate a password of any length of your choice.</p>
+
+      <div class="input-section">
+        <label for="password_length" class="input-label1">*LENGTH: </label>
+        <input type="number" id="password_length" name="password_length" placeholder="Input a length of your choice."><br>
+        <div class="password-section"></div>
+        <div class="button-section">
+          <button type="button" class="generate-password">Generate</button>
+          <button type="button" class="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="javascript/app.js"></script>
+  </body>
+<html
